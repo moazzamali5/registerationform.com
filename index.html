@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    
+<form action="./Succes.html" >
+    <fieldset>
+        <legend>Name and Address</legend>
+        <table>
+            <tr>
+                <td><label>Do you use CiviCRM? </label></td>
+                <td><input name="Boolen" type="radio">
+                <label>Yes</label>
+                <input name="Boolen" type="radio">
+                <label>No</label></td>
+            </tr>
+            <tr>
+                <td><label>How long have you been using CiviCRM?</label></td>
+                <td><select>
+                    <option>--select--</option>
+                    <option>less than 1 month</option>
+                    <option> less than 1 year</option>
+                    <option> more than 1 year</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Which CMS do you use?</label></td>
+                <td>
+                    <select>
+                        <option>--select--</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Your skill set</label></td>
+                <td>
+                    <select>
+                        <option>--select--</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email*</label></td>
+                <td><input required type="email" placeholder="Enter your email"></td>
+
+            </tr>
+            <tr>
+                <td><label>First Name*</label></td>
+                <td><input required></td>
+            </tr>
+            <tr>
+                <td><label>Last Name*</label></td>
+                <td><input required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>First and last name will be shared with other visitors to the site.</td>
+            </tr>
+            <tr>
+                <td><label>Street Address(Home)</label></td>
+                <td><input type="address" size="30px"></td>
+            </tr>
+            <tr>
+                <td><label>City(Home)</label></td>
+                <td><input></td>
+            </tr>
+            <tr>
+                <td><label>Postal Code(Home)</label></td>
+                <td><input type="text" size="6px"></td>
+            </tr>4
+            <tr>
+                <td><label>Country(Home)</label></td>
+                <td>
+                    <select>
+                        <option>United States</option>
+                        <option>Pakistan</option>
+                        <option>United Kingdom</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Your state/province and country of residence will be shared with others so folks
+                    can find others in their community.
+                </td>
+            </tr>
+            <tr>
+                <td><label>State(Home)</label></td>
+                <td>
+                    <select>
+                        <option>--select--</option>
+                        <option>Punjab</option>
+                        <option>Kashmir</option>
+                        <option>Non- of the above</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <button style="border-radius: 20px;" >Save</button>
+    <button style="border-radius: 20px;">Cancel</button>
+</form>
+</body>
+</html>
